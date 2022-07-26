@@ -12,4 +12,9 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TaskBoard.DI\TaskBoard.DI.csproj" />
+    <ProjectReference Include="..\TaskBoard.Repositories\TaskBoard.Repositories.csproj" />
+  </ItemGroup>
+
 </Project>
